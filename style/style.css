@@ -1,0 +1,424 @@
+/* ## Baseline Normalize
+--------------------------------------------- */
+/* normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  audio,
+  canvas,
+  progress,
+  video {
+    display: inline-block;
+    vertical-align: baseline;
+  }
+  audio:not([controls]) {
+    display: none;
+    height: 0;
+  }
+  [hidden],
+  template {
+    display: none;
+  }
+  a {
+    background: 0 0;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  abbr[title] {
+    border-bottom: 1px dotted;
+  }
+  b,
+  strong {
+    font-weight: 700;
+  }
+  dfn {
+    font-style: italic;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  mark {
+    background: #ff0;
+    color: #333;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  img {
+    border: 0;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  figure {
+    margin: 1em 40px;
+  }
+  hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+  }
+  pre {
+    overflow: auto;
+  }
+  code,
+  kbd,
+  pre,
+  samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  button {
+    overflow: visible;
+  }
+  button,
+  select {
+    text-transform: none;
+  }
+  button,
+  html input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  button[disabled],
+  html input[disabled] {
+    cursor: default;
+  }
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  input {
+    line-height: normal;
+  }
+  input[type="checkbox"],
+  input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+  }
+  legend {
+    border: 0;
+    padding: 0;
+  }
+  textarea {
+    overflow: auto;
+  }
+  optgroup {
+    font-weight: 700;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  td,
+  th {
+    padding: 0;
+  }
+  
+  /* ## Box Sizing
+    --------------------------------------------- */
+  
+  *,
+  input[type="search"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.625;
+    margin: 0;
+  }
+  /* ## Headings
+    --------------------------------------------- */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 0 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 18px;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }
+  
+  .wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 0px;
+   
+  }
+  /* custom */
+  .outer{
+    background-image: url(/images/Home-Header.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .flex1{
+    display: flex;
+    align-items: center;
+    gap: 211px;
+    position: relative;
+  }
+  /* important */
+  .inner-wrap{
+    max-width: 1543px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 45px;
+  }
+  /* important */
+  .liflex {
+    display: flex;
+    list-style: none;
+    color: #ffffff;
+    font-family: "Onest", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    padding-bottom: 5px;
+  }
+  .liflex a:hover{
+    color: #FEC526;
+  }
+  
+  .flex2 a:hover{
+    border-bottom-color: #FEC526;
+  }
+  .srch img{
+    height: 1em;
+    width: .9em;
+    margin-top: 4px;
+    margin-right: 0px;
+  }
+  .mber{
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    padding-right: 23px;
+  }
+  .outer .mber::after{
+    content: " ";
+    position: absolute;
+    right: 5px;
+    top: 31%;
+    transform: translateY(-50%);
+    background: #FEC526;
+    height: 6px;
+    width: 6px;
+  }
+  .flex2{
+    display: flex;
+    gap: 23px;
+    padding-left: 59px;
+    position: relative;
+  }
+  .hero{
+    padding-top: 181px;
+    padding-left: 4px;
+  }
+  .hero h1{
+    font-size: 64px;
+    color: #ffffff;
+    font-family: "Onest", sans-serif;
+    word-spacing: 4px;
+    line-height: 82px;
+  }
+  .herospan{
+    display: flex;
+    gap: 47px;
+    padding-top: 8px;
+  }
+  .herospan span{
+    color: #ffffff;
+    font-family: "Onest", sans-serif;
+    font-size: 24px;
+    position: relative;
+  }
+  .herospan span:not(:last-child):before{
+    content: " ";
+    position: absolute;
+    right: -19px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #FEC526;
+    height: 6px;
+    width: 6px;
+  }
+  .herop p{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Onest", sans-serif;
+    padding-top: 14px;
+    padding-bottom: 139px;
+  }
+  .button{
+    padding: 19px 59px 20px 22px;
+    color: #000;
+    background: #FEC526;
+    position: relative;
+  }
+  .herobottom a.button{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.6px;
+  }
+  .flexlast a:hover{
+    background-color: #000;
+    color: #ffffff;
+  }
+  .button::after{
+    content: " ";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    height: 6px;
+    width: 6px;
+  }
+  .herobottom p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.6px;
+    padding-top: 3px;
+    color: #ffffff; 
+  }
+  .flexlast{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  .last{
+    display: flex;
+    align-items: center;
+     gap:782px;
+     padding-bottom: 27px;
+  }
+ .lastright a.button{
+    font-size: 18px;
+    border: 2px solid #FEC526;
+    padding: 17px 76px 19px 22px;
+    color: #ffffff;
+    background: none;
+ }
+ .lastright a.button:hover{
+    background-color: #FEC526;
+ }
+ .lastright{
+    position: relative;
+ }
+ .lastright a::after{
+  background: #FEC526;
+  }
